@@ -85,7 +85,7 @@ Practical Exercise
 
 Expalining about basic core consept by using code 
 
-Components ex
+Components ex:
 
 //create file for every reusable component with extention Mycomponent.js  
 
@@ -115,7 +115,7 @@ function App(){
     };
 }
 
-JSX Exaple
+JSX Example:
 
 const element  = <h1> hello this is jsx example </h1>
 
@@ -157,7 +157,7 @@ const element = (
   </div>
 );
 
-Virtual DOM
+Virtual DOM Example:
 
 const example = document.getElementById('root');
 element.innerHtml ="hello";
@@ -165,7 +165,7 @@ element.style.color = 'red';
 
 State and props
 
-//State Example
+State Example:
 
 improt React, {useState} from 'react';
 
@@ -200,7 +200,7 @@ function App(){
 }
 export default App;
 
-Lifecycle Method
+Lifecycle Method Example:
 
 import React, {component} from 'react';
 
